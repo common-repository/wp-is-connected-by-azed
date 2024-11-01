@@ -1,0 +1,44 @@
+/* css for WP Is Connected by Azed */
+
+/* Thanks to Fam Fam Silk Icons : http://www.famfamfam.com/lab/icons/silk/ */
+.azedGlobal.azedPopinBG{display:none;position: fixed;top:0;left:0;right:0;bottom:0;background: rgba(0,0,0,0.4);z-index: 9991;overflow: auto;}
+.azedGlobal.azedPopin{position: absolute;top:50%;padding-bottom:50px;margin-top:-225px;height:450px;left:50%;margin-left:-350px;width:700px;background: #fff;box-shadow: 0 0 6px rgba(0,0,0,0.3);z-index: 9992;display: none;overflow: auto;}
+.azedGlobal.azedPopin .btnPlace{position: absolute;bottom:0;left:0;right:0;line-height: 50px;height:50px;background: #fff;text-align: center;border-top:1px solid #eee;}
+.azedGlobal.azedPopin .btnPlace input{vertical-align: baseline;}
+.azedGlobal h1{text-align: center;}
+.azedGlobal .azedContainer{display: block; overflow: auto;padding: 0 15px;}
+.azedGlobal .azedRow{display: block; clear:both;overflow:auto;margin:0 -15px;}
+.azedGlobal .azedFlex{display: flex;}
+
+.azedGlobal .azedWrapper{margin:0 -15px;padding: 15px;background: #fff;border-radius: 6px;border:1px solid #eee;position: relative;height: 100%;width:100%;box-sizing: border-box;}
+.azedGlobal .mw800{max-width: 800px;}
+
+.azedGlobal .fleft-2, .azedGlobal .fleft-3, .azedGlobal .fleft-4, .azedGlobal .fleft-5, .azedGlobal .fleft-6{float: left;box-sizing: border-box;padding:0px 15px;position: relative;margin:0;}
+
+.azedGlobal .fleft-2{width:50%;}
+.azedGlobal .fleft-3{width:33.33333%;}
+.azedGlobal .fleft-4{width:25%;}
+.azedGlobal .fleft-5{width:20%;}
+.azedGlobal .fleft-6{width:16.66666%;}
+
+html.overflow{overflow: hidden !important;}
+
+.azedGlobal .mh50{min-height: 50px;}
+
+.azedGlobal .azedWrapper .formElt{width:100%;line-height: 30px;padding:8px;border-radius:4px;height: auto;}
+.azedGlobal .azedWrapper input[type=button].formElt{width:100%;line-height: 20px;padding:4px;border-radius:4px;height: auto;}
+.azedGlobal .disableSection{display: none;}
+.azedGlobal .enableSection{display: block;}
+
+.azedGlobal .throwMessage{line-height: 20px;padding:8px;border:1px solid #fff;background: #fff;border-radius:5px;font-size: 1.2em;font-weight: bold;}
+
+.azedGlobal .azedWrapper .error{color: #b00;border-color:#b00;}
+.azedGlobal .azedWrapper .warning{color: #FF9000;border-color:#FF9000;}
+
+@media screen and (max-width: 991px){
+  .azedGlobal .azedFlex{display: block;}
+  .azedGlobal .fleft-2, .azedGlobal .fleft-3, .azedGlobal .fleft-4, .azedGlobal .fleft-5, .azedGlobal .fleft-6{width: 100%;}
+}
+@media screen and (max-width: 700px), screen and (max-height: 450px){
+  .azedGlobal.azedPopin{left:0;margin-left:0;width: 100%;height:auto;top:0;margin-top:0;}
+}
